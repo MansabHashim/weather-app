@@ -6,6 +6,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon.png"
+      type="image/x-icon"
+    />
+    <script defer src="index.js"></script>
     <title>Weather Finder</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -19,7 +25,9 @@
           placeholder="Enter city name"
           spellcheck="false"
         />
-        <button><img src="images/search.png" alt="" /></button>
+        <button type="submit">
+          <img src="images/search.png" alt="" />
+        </button>
       </div>
     </form>
     <div class="weather">
@@ -45,6 +53,4 @@
       </div>
     </div>
   </div>
-
-  <script src="index.js"></script>
 </html>
